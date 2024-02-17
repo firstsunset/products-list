@@ -1,0 +1,57 @@
+.header {
+  position: fixed;
+  z-index: 1;
+  padding-left: 233px;
+  padding-right: 235px;
+  background-color: var(--color-light);
+  height: 110px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.headerLogo {
+  width: 190px;
+  height: 50px;
+  color: var(--color-light);
+  background-color: var(--color-blue);
+  border-radius: 6px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--color-light);
+}
+
+.numberButtonBlock {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.button {
+  margin-bottom: 15px;
+  width: 64px;
+  height: 95px;
+  background-color: var(--color-blue);
+  border: none;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  cursor: pointer;
+}
+
+.number {
+  color: var(--color-blue);
+  font-family: 'InterBold';
+  font-size: 14px;
+}
+
+.numberBold {
+  font-size: 22px;
+}

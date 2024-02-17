@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.main {
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.mainMenu {
+  margin-top: 74px;
+  margin-left: 16vw;
+}
+.mainMenuList {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
+
+.mainMenuItem {
+  display: flex;
+  gap: 5px;
+}
+
+.mainMenuItem a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 14px;
+}
+
+.mainMenuItem a:active {
+  color: #575757;
+}
+
+.mainTitle {
+  margin-left: 16vw;
+  margin-bottom: 30px;
+  font-family: 'InterExtraBold';
+  font-size: 54px;
+  color: var(--color-blue);
+}
+
+.productList {
+  width: 100%;
+  margin-left: 16vw;
+  margin-bottom: 94px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

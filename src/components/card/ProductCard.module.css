@@ -1,0 +1,124 @@
+.card {
+  position: relative;
+  width: 305px;
+  min-height: 540px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}
+
+.cardImage {
+  width: 305px;
+  min-height: 205px;
+  height: auto;
+  background-image: url('../../assets/product-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardImageImageLabel {
+  position: absolute;
+  right: 25px;
+  top: 17px;
+}
+
+.cardMain {
+  margin: 20px 13px 40px 20px;
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+  font-family: 'InterBold';
+}
+
+.cardDescription {
+  margin-bottom: 20px;
+  color: #AAAAAA;
+}
+
+.togglleButtonsBlock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 265px;
+  height: 56px;
+  border: 2px solid var(--color-light-gray);
+  border-radius: 81px;
+}
+
+.standartButton {
+  width: 265px;
+  height: 56px;
+  padding-left: 30px;
+  border: none;
+  color: #717171;
+  border-radius: 81px;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: start;
+  font-size: 16px;
+}
+
+.standartButtonActive {
+  width: 265px;
+  height: 56px;
+  padding-right: 30px;
+  border: none;
+  color: #717171;
+  border-radius: 81px;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: end;
+  font-size: 16px;
+}
+
+.doubleButton {
+  position: fixed;
+  width: 142px;
+  height: 53px;
+  border-radius: 81px;
+  color: var(--color-dark-gray);
+  background-color: var(--color-light-gray);
+  border: 2px solid var(--color-light-gray);
+  cursor: pointer;
+  transition: right 0.2s ease-out;
+  font-size: 16px;
+}
+
+.doubleButtonActive {
+  height: 53px;
+  padding: 0 36px 0 36px;
+  border-radius: 81px;
+  color: var(--color-dark-gray);
+  background-color: var(--color-light-gray);
+  border: 2px solid var(--color-light-gray);
+  cursor: pointer;
+  transition: left 0.2s ease-out;
+  font-size: 16px;
+}
+
+.cardPriceButtonBlock {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.cardPrice {
+  font-family: 'InterExtraBold';
+  font-size: 24px;
+}
+
+.orderButton {
+  width: 162px;
+  height: 56px;
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 81px;
+  font-family: 'InterExtraBold';
+  font-size: 18px;
+  color: var(--color-light);
+  cursor: pointer;
+}

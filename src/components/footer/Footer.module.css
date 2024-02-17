@@ -1,0 +1,14 @@
+.footer {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-light-gray);
+}
+
+.footerTitle {
+  font-family: 'InterBold';
+  font-size: 18px;
+  color: var(--color-blue);
+  text-transform: uppercase;
+}
