@@ -4,16 +4,24 @@
   width: 100vw;
 }
 .main {
+  margin-top: 110px;
   background-color: var(--color-light);
   display: flex;
   flex-direction: column;
 }
 
-.mainMenu {
+.mainTitleBlock {
   margin-top: 74px;
   margin-left: 16vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
+
 .mainMenuList {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 17px;
   padding-left: 0;
   list-style-type: none;
   display: flex;
@@ -23,12 +31,14 @@
 .mainMenuItem {
   display: flex;
   gap: 5px;
+  align-items: center;
 }
 
 .mainMenuItem a {
+  margin-top: 0;
   text-decoration: none;
   color: #575757;
-  font-weight: 14px;
+  font-size: 14px;
 }
 
 .mainMenuItem a:active {
@@ -36,7 +46,6 @@
 }
 
 .mainTitle {
-  margin-left: 16vw;
   margin-bottom: 30px;
   font-family: 'InterExtraBold';
   font-size: 54px;
@@ -44,7 +53,6 @@
 }
 
 .productList {
-  width: 100%;
   margin-left: 16vw;
   margin-bottom: 94px;
   display: flex;

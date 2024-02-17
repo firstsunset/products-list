@@ -40,22 +40,21 @@ const products = [
 ];
 function MainPage() {
   return (
-    <div className={styles.container}>
+    <div >
       <Header />
       <div className={styles.main}>
-        <nav className={styles.mainMenu}>
-          <ul className={styles.mainMenuList}>
-            {menu.map((item, index) => 
-              <li key={item} className={styles.mainMenuItem}>
-                <a className={styles.main} href="/">{item}</a>
-                {(index === 0 || index === 1) &&
-                  <p>/</p>
-                }
-              </li>            
-            )}
-          </ul>
-        </nav>
-        <p className={styles.mainTitle}>Название категории</p>
+        <div className={styles.mainTitleBlock}>
+          <nav>
+            <ul className={styles.mainMenuList}>
+              {menu.map((item, index) => 
+                <li key={item} className={styles.mainMenuItem}>
+                  <a className={styles.main} href="/">{item} {(index === 0 || index === 1) && '/'}</a>
+                </li>            
+              )}
+            </ul>
+          </nav>
+          <p className={styles.mainTitle}>Название категории</p>
+        </div>
         <div className={styles.productList}>
           {products.map((product) => 
             <ProductCard 
